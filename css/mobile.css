@@ -1,4 +1,8 @@
 @media (max-width: 480px){
+    .container{
+        padding-inline: 20px;
+    }
+    
     .input_section{
         flex-direction: column;
         row-gap: 36px;
@@ -6,5 +10,20 @@
 
     .buttons_section{
         column-gap: 42px;
+    }
+}
+
+@media (max-width: 321px){
+    .container{
+        padding: 16px 8px;
+    }
+
+    .main_section{
+        padding-inline: 8px;
+        row-gap: 48px;
+    }
+
+    .input_section{
+        row-gap: 24px;
     }
 }
