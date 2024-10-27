@@ -1,0 +1,10 @@
+@media (max-width: 480px){
+    .input_section{
+        flex-direction: column;
+        row-gap: 36px;
+    }
+
+    .buttons_section{
+        column-gap: 42px;
+    }
+}

@@ -1,0 +1,23 @@
+@media (max-width: 1001px){
+    .container{
+        padding-inline: 24px;
+    }
+}
+
+
+        /* 801px  */
+@media (max-width: 801px){
+    .container{
+        padding-block: 32px;
+    }
+
+    .main_section{
+        flex-direction: column;
+        row-gap: 64px;
+    }
+
+     .buttons_section{
+        column-gap: 72px;
+    }
+    
+}
