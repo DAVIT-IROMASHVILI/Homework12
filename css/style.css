@@ -4,7 +4,7 @@
             height: 666px;
             margin: auto;
             padding: 64px 140px;
-            background-image: url(../images/bg.png);
+            /* background-image: url(../images/bg.png); */
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -16,9 +16,8 @@
             background-color: #1C1325CC;
             display: flex;
             column-gap: 66px;
-
+            position: relative;
         }
-
 
         .form_section {
             width: 100%;
