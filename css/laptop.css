@@ -12,6 +12,7 @@
     }
 
     .main_section{
+        padding: 16px;
         flex-direction: column;
         row-gap: 64px;
     }
